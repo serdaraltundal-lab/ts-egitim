@@ -43,7 +43,6 @@ const aktifUrunler = () => urunler.filter((u) => u.aktif);
 //     }, 0);
 // };
 
-//for ile yapıldı
 const siparisToplami = (siparis: Siparis, liste: Urun[]): number => {
     let toplam = 0;
 
